@@ -1,0 +1,170 @@
+\documentclass[a4paper,14pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{mathtext}
+\usepackage{amsmath,amsfonts,amsthm,mathtools}
+\usepackage{icomma}
+\pagestyle{headings}
+\setcounter{page}{254}
+\usepackage{textcomp}
+\oddsidemargin=-0.3cm
+
+\evensidemargin=-0.3cm
+
+\topmargin=-20pt
+
+\textheight=700pt
+
+
+
+\begin{document}
+	
+\markboth{\scriptsize ÑÈÑÒÅÌÛ ÎÁÛÊÍÎÂÅÍÍÛÕ ÄÈÔÅÐÅÍÖÈÀËÜÍÛÕ ÓÐÀÂÍÅÍÈÈÉ $\;$ [ãë. VII}
+{\scriptsize \S 2] $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$ÑÈÑÒÅÌÛ ËÈÍÅÉÍÛÕ ÄÈÔÅÐÅÍÖÈÀËÜÍÛÕ ÓÐÀÂÍÅÍÈÈÉ}	
+ \textbf{2.}$\;$Ë è í å é í û å$\;$ î ä í î ð î ä í û å $\;$ ñ è ñ ò å ì û. Òàêàÿ ñèñòåìà èìååò\\
+ âèä:\\
+\begin{equation}
+	\left.
+	\begin{array}{ccc}
+	\frac{dy_1}{dx} + a_{11}y_1 + a_{12}y_2 + \ldots\ + a_{1n}y_n = 0,\\
+	\frac{dy_2}{dx} + a_{21}y_1 + a_{22}y_2 + \ldots\ + a_{2n}y_n = 0, \\
+	\ldots\ \\
+	\ldots\ \\
+	\frac{dy_n}{dx} + a_{n1}y_1 + a_{n2}y_2 + \ldots\ + a_{nn}y_n = 0. \\
+	\end{array}
+	\right\} \tag{9}
+\end{equation}
+ Ìû ïðåäïîëàãàåì, ÷òî êîýôèöèåíòû \(a_{ik}\) íåïðåðûâíû â èíòåðâàëå\\
+ $a$ < $x$ < $b$.\\
+ 
+ Ïóñòü ÷ à ñ ò í û ì$\;$ ð å ø å í è å ì$\;$ ñ è ñ ò å ì û (9) ÿâëÿåòñÿ ñèñòåìà\\
+ ôóíêöèé \(y_1^{(1)}(x),\;y_2^{(1)}(x),\) $\ldots\ $\(,\;y_n^{(1)}(x)\),
+ êîòîðûå ïî ïîäñòàíîâêå â óðàâ-\\
+ íåíèÿ (9) îáðàùàþò èõ â òîæäåñòâà. Ëåãêî âèäåòü, ÷òî â òàêîì ñëó-\\
+ ÷àå \textit{ñèñòåìà ôóíêöèé} \(C_{y1}^{(1)}, C_{y2}^{(1)},\) $\ldots\ $\(,\;C_{yn}^{(1)}\) \textit{òàêæå ÿâëÿåòñÿ ðåøå-\\
+ íèåì ñèñòåìû} (9). \textit{Äàëåå, åñëè \(y_1^{(1)}, y_2^{(1)},\) $\ldots\ $\(,\;y_n^{(1)}\) è \(y_1^{(2)}, y_2^{(2)},\) $\ldots\ $\(,\;y_n^{(2)}\)\\
+ ñóòü äâà ÷àñòíûõ ðåøåíèÿ, òî \(y_1^{(1)} + y_1^{(2)}, y_2^{(1)} + y_2^{(2)},\) $\ldots\ $\(,\;y_n^{(1)} + y_n^{(2)}\) \\
+ òàêæå ÿâëÿåòñÿ ðåøåíèåì ñèñòåìû} (9).
+ 
+ Ïóñòü ìû èìååì $n$ ÷àñòíûõ ðåøåíèé\\
+ \[
+ \left.
+ \begin{array}{ccc}
+ y_1^{(1)}, y_2^{(1)},\: \ldots\ , y_n^{(1)}\\
+ y_1^{(2)}, y_2^{(2)},\: \ldots\ , y_n^{(2)}\\
+ \ldots\ \\
+ \ldots\ \\
+ y_1^{(n)}, y_2^{(n)},\: \ldots\ , y_n^{(n)}\\
+ \end{array}
+ \right\} \tag{12} 
+ \]
+ \textit{Íàçîâåì ñèñòåìó ðåøåíèé} (12) \textit{íåçàâèñèìîé, åñëè äåòåðìèíàíò}\\
+ \[
+ D = 
+ \begin{vmatrix}
+ 	y_1^{(1)} & y_2^{(1)} & \ldots\ & y_n^{(1)} \\
+ 	y_1^{(2)} & y_2^{(2)} & \ldots\ & y_n^{(2)} \\
+ 	\ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ 	\ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ 	y_1^{(n)} & y_2^{(n)} & \ldots\ & y_n^{(n)} \tag{$12'$}
+ \end{vmatrix}
+ \]
+ \textit{íåðàâåí òîæäåñòâåííî íóëþ â èíòåðâàëå ($a$, $b$). Íåçàâèñèìûå ñèñòåìû\\
+ ñóùåñòâóþò:} äîñòàòî÷íî âçÿòü \(n^2\) ÷èñåë \(b_i^{(k)}\) ($i,k=1$,~2,
+ $\ldots\,$,~$n$) òàêèõ,\\
+ ÷òîáû èõ îïðåäåëèòåëü $D_0$ áûë íåðàâåí íóëþ; çàòåì îïðåäåëèì n\\
+ ÷àñòíûõ ðåøåíèé \(y_1^{(k)}(x), y_2^{(k)}(x),\) $\ldots\ $\(,\;y_n^{(k)}(x)\), ïðèíèìàþùèõ ïðè $x$=$x_0$\\
+ (ãäå $x_0$ $-$ íåêîòîðàÿ òî÷êà èíòåðâàëà $a$ < $x$ < $b$) íà÷àëüíûå çíà÷åíèÿ\\
+ \(y_1^{(k)}(x_0)=b_1^{(k)}, y_2^{(k)}(x_0)=b_2^{(k)},\) $\ldots\ $\(,\;y_n^{(k)}(x_0)=b_n^{(k)}\) ($k=1$,~2,
+ $\ldots\,$,~$n$)\\
+ Òîãäà, â ñèëó íåïðåðûâíîñòè ôóíêöèé \(y_i^{(k)}\), îïðåäåëèòåëü $D$ áóäåò îò-\\
+ ëè÷åí îò 0 òàêæå â íåêîòîðîì èíòåðâàëå, îêðóæàþùåì òî÷êó $x_0$. Ìû\\
+ ìîæåì äîêàçàòü áîëüøå.
+ 
+ \small\textsc{Ò$\:$å$\:$î$\:$ð$\:$å$\:$ì$\:$à.} \normalsize \textit{Åñëè} $D(x_0)$ $\neq$ 0\textit{, òî $D(x)$ íå îáðàùàåòñÿ â} 0 \textit{íè\\
+ â êàêîé òî÷êå èíòåðâàëà ($a$, $b$).}\\ 
+ \newpage Äëÿ äîêàçàòåëüñòâà âû÷èñëèì ïðîèçâîäíóþ $D'(x)$; äèôåðåíöèðóåì\\
+ ïî ñòîëáöàì:\\
+  \[
+ D'(x) = 
+ \begin{vmatrix}
+ \:\frac{dy_1^{(1)}}{dx} y_2^{(1)} & \ldots\ & y_n^{(1)} \\
+ \\
+ \:\frac{dy_1^{(2)}}{dx} y_2^{(2)} & \ldots\ & y_n^{(2)} \\
+ \\
+ \ldots\ & \ldots\ & \ldots\  \\
+ \ldots\ & \ldots\ & \ldots\  \\
+ \\
+ \:\frac{dy_1^{(n)}}{dx} y_2^{(n)} & \ldots\ & y_n^{(n)}
+ \end{vmatrix}
+ +
+  \begin{vmatrix}
+ \:y_1^{(1)}\frac{dy_2^{(1)}}{dx} & \ldots\ & y_n^{(1)}\\
+ \\
+ \:y_1^{(2)}\frac{dy_2^{(2)}}{dx} & \ldots\ & y_n^{(2)}\\
+ \\
+ \ldots\ & \ldots\ & \ldots\ \\
+ \ldots\ & \ldots\ & \ldots\ \\
+ \\
+ \:y_1^{(2)}\frac{dy_2^{(n)}}{dx} & \ldots\ & y_n^{(n)}
+ \end{vmatrix}
+ + \ldots\ + \\
+ \]
+ \[
+ +
+ \begin{vmatrix}
+ \:y_1^{(1)} y_2^{(1)} & \ldots\ & \frac{dy_n^{(1)}}{dx}\\
+ \\
+ \:y_1^{(2)} y_2^{(2)} & \ldots\ & \frac{dy_n^{(2)}}{dx}\\
+ \\
+ \ldots\ & \ldots\ & \ldots\ \\
+ \ldots\ & \ldots\ & \ldots\ \\
+ \\
+ \:y_1^{(n)} y_2^{(n)} & \ldots\ & \frac{dy_n^{(n)}}{dx}\\
+ \end{vmatrix}
+ .
+ \]
+ Çàìåíèâ â êàæäîì îïðåäåëèòåëå â ïðàâîé ÷àñòè ïðîèçâîäíûå $\frac{dy_i^{(k)}}{dx}$\\
+ èõ âûðàæåíèÿìè èç óðàâíåíèÿ (9), ìû ïîëó÷èì, íàïðèìåð, äëÿ ïåðâîãî\\
+ ñëàãàåìîãî:
+  \[
+ -a_{11}
+ \begin{vmatrix}
+ y_1^{(1)} & y_2^{(1)} & \ldots\ & y_n^{(1)} \\
+ y_1^{(2)} & y_2^{(2)} & \ldots\ & y_n^{(2)} \\
+ \ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ \ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ y_1^{(n)} & y_2^{(n)} & \ldots\ & y_n^{(n)}
+ \end{vmatrix}
+ -a_{12}
+  \begin{vmatrix}
+ y_1^{(1)} & y_2^{(1)} & \ldots\ & y_n^{(1)} \\
+ y_1^{(2)} & y_2^{(2)} & \ldots\ & y_n^{(2)} \\
+ \ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ \ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ y_1^{(n)} & y_2^{(n)} & \ldots\ & y_n^{(n)}
+ \end{vmatrix}
+ - \ldots\ -\\
+ \]
+ \[
+ -a_{1n}
+  \begin{vmatrix}
+ 	y_1^{(1)} & y_2^{(1)} & \ldots\ & y_n^{(1)} \\
+ 	y_1^{(2)} & y_2^{(2)} & \ldots\ & y_n^{(2)} \\
+ 	\ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ 	\ldots\ & \ldots\ & \ldots\ & \ldots\ \\
+ 	y_1^{(n)} & y_2^{(n)} & \ldots\ & y_n^{(n)}
+ \end{vmatrix}
+ = -a_{11}D(x),
+\]
+òàê êàê âñå îïðåäåëèòåëè, êðîìå ïåðâîãî, èìåþò ïî äâà ðàâíûõ\\
+ñòîëáöà. Àíàëîãè÷íî, âòîðîå ñëàãàåìîå äàåò $-a_{22}D(x),\;\ldots\ ,n$-e ñëà-\\
+ãàåìîå äàåò $-a_{nn}D(x)$. Èòàê, èìååì:\\
+\[
+D'(x) = -(a_{11} + a_{22} + \ldots\ + a_{nn})\,D(x),
+\]
+èëè\\
+\[
+\frac{D'}{D} = -(a_{11} + a_{22} + \ldots\ + a_{nn}),
+\]
+\end{document}
